@@ -43,7 +43,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    url: "g8.jog",
+    url: "g8.jpg",
     title: "",
   },
   {
@@ -54,6 +54,16 @@ const galleryImages = [
   {
     id: 10,
     url: "g10",
+    title: "",
+  },
+ {
+    id: 11,
+    url: "g11.jpg",
+    title: "",
+  },
+  {
+    id: 12,
+    url: "g12.jpg",
     title: "",
   },
 ];
