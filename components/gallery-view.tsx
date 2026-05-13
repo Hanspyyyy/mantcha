@@ -29,7 +29,7 @@ const galleryImages = [
   {
     id: 5,
     url: "g5.jpg",
-    title: "Love Story",
+    title: "",
   },
   {
     id: 6,
