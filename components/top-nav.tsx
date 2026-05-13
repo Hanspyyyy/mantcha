@@ -125,7 +125,7 @@ export function TopNav({ isDark, onToggleTheme }: TopNavProps) {
                   className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-pink-500/20 to-sky-500/20 backdrop-blur-md border border-pink-500/30"
                 >
                   <span className="text-lg font-bold bg-gradient-to-r from-pink-400 to-sky-300 bg-clip-text text-transparent">
-                    Mantcha
+                    Mantchaa
                   </span>
                   <Music className="w-4 h-4 text-pink-300" />
                 </motion.button>
@@ -214,7 +214,7 @@ export function TopNav({ isDark, onToggleTheme }: TopNavProps) {
             >
               <div className="flex items-center justify-between mb-8">
                 <h2 className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-sky-300 bg-clip-text text-transparent">
-                  Mantcha
+                  Mantchaa
                 </h2>
                 <button onClick={() => setShowMenu(false)}>
                   <X className="w-6 h-6 text-pink-300" />
