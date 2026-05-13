@@ -299,7 +299,7 @@ export function IntroScreen({ onComplete }: IntroScreenProps) {
               className="flex items-center gap-2"
             >
               <HeartIcon className="w-5 h-5 text-pink-400" />
-              <span className="text-2xl text-pink-300">Welcome, Sayang!</span>
+              <span className="text-2xl text-pink-300">Welcome!!!</span>
               <HeartIcon className="w-5 h-5 text-pink-400" />
             </motion.div>
           </motion.div>
