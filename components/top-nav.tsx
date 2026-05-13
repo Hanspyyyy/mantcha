@@ -21,13 +21,13 @@ const songs = [
     id: 2, 
     title: "Perempuan Yang Sedang Di Pelukan", 
     artist: "Romantic",
-    url: "perempuanyangsedangdipelukan.mp3 " 
+    url: "musik2.mp3 " 
   },
   { 
     id: 3, 
     title: "Surat Cinta Untuk Starla", 
     artist: "Virgoun",
-    url: "suratcintauntukstarla.mp3"
+    url: "musik3.mp3"
   },
 ];
 
