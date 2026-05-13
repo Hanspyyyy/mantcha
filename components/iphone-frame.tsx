@@ -33,7 +33,6 @@ export function IPhoneFrame({ onLongPress }: IPhoneFrameProps) {
 
   // Sample images for the iPhone frame
   const coupleImages = [
-    "fream1.jpg",
     "fream2.jpg",
     "fream3.jpg",
   ];
