@@ -247,7 +247,7 @@ export function IntroScreen({ onComplete }: IntroScreenProps) {
         className="mb-8"
       >
         <h1 className="text-5xl font-bold bg-gradient-to-r from-pink-400 via-pink-300 to-sky-300 bg-clip-text text-transparent">
-          Mantcha
+          Mantchaa
         </h1>
         <p className="text-center text-pink-200/60 text-sm mt-2">Loading our memories...</p>
       </motion.div>
