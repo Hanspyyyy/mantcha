@@ -33,7 +33,7 @@ export function IPhoneFrame({ onLongPress }: IPhoneFrameProps) {
 
   // Sample images for the iPhone frame
   const coupleImages = [
-    "fream1.jpgw=400&h=600&fit=crop",
+    "fream1.jpg",
     "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=400&h=600&fit=crop",
     "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=600&fit=crop",
   ];
