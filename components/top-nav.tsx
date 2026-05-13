@@ -15,19 +15,19 @@ const songs = [
     id: 1, 
     title: "Bergema Sampai Selamanya", 
     artist: "Love Song",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" 
+    url: "bergemasampaiselamanya.mp3" 
   },
   { 
     id: 2, 
     title: "Perempuan Yang Sedang Di Pelukan", 
     artist: "Romantic",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" 
+    url: "perempuanyangsedangdipelukan.mp3 " 
   },
   { 
     id: 3, 
     title: "Surat Cinta Untuk Starla", 
     artist: "Virgoun",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    url: "suratcintauntukstarla.mp3"
   },
 ];
 
