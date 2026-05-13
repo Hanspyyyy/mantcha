@@ -8,53 +8,53 @@ import { X } from "lucide-react";
 const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=400&h=400&fit=crop",
-    title: "Sweet Moment",
+    url: "G1.jpg",
+    title: "",
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=400&h=400&fit=crop",
-    title: "Together",
+    url: "g2.jpg",
+    title: "",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=400&h=400&fit=crop",
-    title: "Our Day",
+    url: "g3.jpg",
+    title: "",
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop",
-    title: "Happiness",
+    url: "g4.jpg",
+    title: "",
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop",
+    url: "g5.jpg",
     title: "Love Story",
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400&h=400&fit=crop",
-    title: "Forever",
+    url: "g6.jpg",
+    title: "",
   },
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=400&h=400&fit=crop",
-    title: "Beautiful",
+    url: "g7.jpg",
+    title: "",
   },
   {
     id: 8,
-    url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-    title: "Memory",
+    url: "g8.jog",
+    title: "",
   },
   {
     id: 9,
-    url: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-    title: "Smile",
+    url: "g9.jpg",
+    title: "",
   },
   {
     id: 10,
-    url: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-    title: "Joy",
+    url: "g10",
+    title: "",
   },
 ];
 
