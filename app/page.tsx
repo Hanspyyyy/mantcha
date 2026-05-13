@@ -11,7 +11,7 @@ import { GameView } from "@/components/game-view";
 
 type TabType = "home" | "gallery" | "game";
 
-export default function MantchaApp() {
+export default function MantchaaApp() {
   const [showIntro, setShowIntro] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<TabType>("home");
