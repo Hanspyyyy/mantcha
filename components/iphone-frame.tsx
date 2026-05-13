@@ -34,8 +34,8 @@ export function IPhoneFrame({ onLongPress }: IPhoneFrameProps) {
   // Sample images for the iPhone frame
   const coupleImages = [
     "fream1.jpg",
-    "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=400&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=600&fit=crop",
+    "fream2.jpg",
+    "fream3.jpg",
   ];
 
   // Device shake detection
