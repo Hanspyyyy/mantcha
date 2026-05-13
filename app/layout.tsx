@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Mantcha - Our Love Story',
+  title: 'Mantchaa - Our Love Story',
   description: 'A cute photo gallery for couples',
   generator: 'v0.app',
   icons: {
