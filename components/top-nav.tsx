@@ -9,10 +9,26 @@ interface TopNavProps {
   onToggleTheme: () => void;
 }
 
+// Gue tambahin URL contoh biar lu bisa denger hasilnya langsung
 const songs = [
-  { id: 1, title: "Bergema Sampai Selamanya", artist: "Love Song" },
-  { id: 2, title: "Perempuan Yang Sedang Di Pelukan", artist: "Romantic" },
-  { id: 3, title: "Surat Cinta Untuk Starla", artist: "Virgoun" },
+  { 
+    id: 1, 
+    title: "Bergema Sampai Selamanya", 
+    artist: "Love Song",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" 
+  },
+  { 
+    id: 2, 
+    title: "Perempuan Yang Sedang Di Pelukan", 
+    artist: "Romantic",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" 
+  },
+  { 
+    id: 3, 
+    title: "Surat Cinta Untuk Starla", 
+    artist: "Virgoun",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+  },
 ];
 
 export function TopNav({ isDark, onToggleTheme }: TopNavProps) {
@@ -22,27 +38,41 @@ export function TopNav({ isDark, onToggleTheme }: TopNavProps) {
   const [showSongList, setShowSongList] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  // Inisialisasi Audio Engine
   useEffect(() => {
-    // Create audio element (using a placeholder since we don't have actual audio files)
-    audioRef.current = new Audio();
+    audioRef.current = new Audio(songs[currentSongIndex].url);
     audioRef.current.loop = true;
-    
+
+    // Cleanup pas komponen mati
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
+        audioRef.current = null;
       }
     };
   }, []);
 
+  // Fungsi Play/Pause yang beneran jalan
   const togglePlay = () => {
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play().catch(e => console.log("User interaction needed first"));
+    }
     setIsPlaying(!isPlaying);
-    // In real implementation, this would play/pause the audio
   };
 
+  // Fungsi ganti lagu tanpa ngerusak estetika lu
   const selectSong = (index: number) => {
+    if (!audioRef.current) return;
+
     setCurrentSongIndex(index);
-    setShowSongList(false);
+    audioRef.current.src = songs[index].url;
+    audioRef.current.play();
     setIsPlaying(true);
+    setShowSongList(false);
   };
 
   return (
