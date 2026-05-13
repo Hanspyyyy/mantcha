@@ -53,8 +53,8 @@ export function HomeView({ onReset }: HomeViewProps) {
           className="mt-8 text-center max-w-xs"
         >
           <p className="text-pink-300/50 text-xs">
-             Tap frame to see more photos • Shake phone to animate • Long press for 3s to reset 
-             Desain by Hans.py | Kim
+             Tap frame to see more photos • Shake phone to animate • Long press for 3s to reset • click anything to find out |
+             Desain by Hans.py | Kim |
           </p>
         </motion.div>
 
