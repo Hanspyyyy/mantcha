@@ -61,6 +61,46 @@ const galleryImages = [
     url: "g13.jpg",
     title: "",
   },
+  {
+    id: 14,
+    url: "g14.jpg",
+    title: "",
+  },
+  {
+    id: 15,
+    url: "g15.jpg",
+    title: "",
+  },
+  {
+    id: 16,
+    url: "g16.jpg",
+    title: "",
+  },
+  {
+    id: 16,
+    url: "g16.jpg",
+    title: "",
+  },
+  {
+    id: 17,
+    url: "g17.jpg",
+    title: "",
+  },
+  {
+    id: 18,
+    url: "g19.jpg",
+    title: "",
+  },
+  {
+    id: 19,
+    url: "g19.jpg",
+    title: "",
+  },
+  {
+    id:  20,
+    url: "g20.jpg",
+    title: "",
+  },
 ];
 
 export function GalleryView() {
