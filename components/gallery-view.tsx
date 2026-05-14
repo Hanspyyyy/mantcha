@@ -48,7 +48,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    url: "g13.jpg",
+    url: "g9.jpg",
     title: "",
   },
   {
@@ -64,6 +64,11 @@ const galleryImages = [
   {
     id: 12,
     url: "g12.jpg",
+    title: "",
+  },
+  {
+    id: 13,
+    url: "g13.jpg",
     title: "",
   },
 ];
